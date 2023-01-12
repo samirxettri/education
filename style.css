@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.top-header{
+    display: flex;
+    align-items: center;
+    background-color: rgb(36, 21, 21);
+    color: white;
+     justify-content:space-around ;
+    border-bottom: 1px solid white;
+
+}
+.top-header img{ 
+    height: 50px;
+    border-radius: 60px;
+    
+
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: blue;
+    list-style: none;
+    height: 100px ;
+}
+header{
+ background-color: rgb(109, 109, 220);
+ background-repeat: no-repeat;
+background-size: cover;
+
+}
+.ghane{
+    height: 700px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     font-size: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-image: url(school/download\ \(1\).jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: red;
+
+}
+.santosh{
+    text-align: center;
+    color: red;
+    padding: 20px;
+
+}
+.samir{
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+     height: 400px;
+     align-items: center;
+    
+}
+.samir img{
+    height: 300px;
+}
+.service{
+    color: red;
+    text-align: center;
+    padding: 20px;
+
+}
+.middle{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap: 20px;
+    color: red;
+}
+.laptop{
+    color: red;
+    text-align: center;
+    padding: 20px;
+}
+.computer{
+    text-align: center;
+}
+footer{
+    background-color: aqua;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+    height: 200px;
+    color:green;
+}
+footer two{
+    display:grid;
+    list-style: none;
+}
+.finish{
+    color: red;
+    padding: 30px;
+    text-align: center;
+    background-color: blueviolet;
+}
+.three button{
+    border-radius: 7px;
+    cursor: pointer;
+    border: 1px solid white;
+    color: red;
+    background: transparents;
+    padding: 10px;
+}
+button:hover{
+    background: green;
+}
+        
